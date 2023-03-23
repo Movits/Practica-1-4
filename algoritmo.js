@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica 1-4</title>
-</head>
-<body>
-    <!-- <details>
+document.querySelector("body").innerHTML = `
+<details>
         <summary>sorpresa</summary>
         <img height="460" width="800" src="https://portaldoscaesegatos.com.br/wp-content/uploads/2018/03/adotar-um-Gatinho.jpg" alt="">
         <iframe height="460" width="800"  src="https://www.mercadolibre.com.ar/" frameborder="0"></iframe>
         <p>gatito y mercado libre</p>
         <a href="https://www.google.com/?hl=es">Link de Google</a>
-    </details> -->
-    <script src="algoritmo.js"></script>
-</body>
-</html>
+    </details>
+`
